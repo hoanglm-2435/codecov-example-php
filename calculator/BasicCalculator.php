@@ -22,7 +22,7 @@ class BasicCalculator
         return $x / $y;
     }
 
-    public static function addMultiples(float $x, float $y, float $z, float $t, float $u) {
-        return $x + $y + $z + $t + $u;
+    public static function addMultiples(float $x, float $y, float $z, float $t) {
+        return $x + $y + $z + $t;
     }
 }
