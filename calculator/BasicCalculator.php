@@ -21,4 +21,11 @@ class BasicCalculator
         }
         return $x / $y;
     }
+
+    public static function divideNew(float $x, float $y) {
+        if ($y == 0) {
+            return 'Cannot divide by 0 - new';
+        }
+        return $x / $y;
+    }
 }
