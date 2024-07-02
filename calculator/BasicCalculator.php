@@ -21,4 +21,8 @@ class BasicCalculator
         }
         return $x / $y;
     }
+
+    public static function addMultiples(float $x, float $y, float $z) {
+        return $x + $y + $z;
+    }
 }
