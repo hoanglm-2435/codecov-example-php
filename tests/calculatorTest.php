@@ -15,6 +15,7 @@ class calculatorTest extends PHPUnit\Framework\TestCase
         $this->assertEquals(2.0, BasicCalculator::add(0, 2.0));
         $this->assertEquals(2.0, BasicCalculator::add(2.0, 0));
         $this->assertEquals(-2.0, BasicCalculator::add(-4, 2.0));
+        $this->assertEquals(-2.0, BasicCalculator::add(-4, 3.0));
     }
 
     /**
