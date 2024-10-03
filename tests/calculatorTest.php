@@ -11,6 +11,7 @@ class calculatorTest extends PHPUnit\Framework\TestCase
     public function testAdd()
     {
         $this->assertEquals(3.0, BasicCalculator::add(1, 2));
+        $this->assertEquals(4.0, BasicCalculator::add(2, 2));
         $this->assertEquals(3.0, BasicCalculator::add(1.0, 2.0));
         $this->assertEquals(2.0, BasicCalculator::add(0, 2.0));
         $this->assertEquals(2.0, BasicCalculator::add(2.0, 0));
